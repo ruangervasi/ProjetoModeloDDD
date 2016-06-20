@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{4B70E456-D8D6-40E8-B2E6-1CE4B1968CD2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4B70E456-D8D6-40E8-B2E6-1CE4B1968CD2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{6AED650C-0E43-4655-BED8-E08EB52BBB9E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6AED650C-0E43-4655-BED8-E08EB52BBB9E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{206D5B1B-4FE0-4A29-94E9-8D21B545A2A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{206D5B1B-4FE0-4A29-94E9-8D21B545A2A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{9C32C7E7-F985-4447-A6B8-B0335D2421DA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9C32C7E7-F985-4447-A6B8-B0335D2421DA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{AF80A9E3-D702-4BDD-B9E7-935C3BC76ED3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{AF80A9E3-D702-4BDD-B9E7-935C3BC76ED3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{EB3ADA65-7EF5-4856-B508-4BF86DB60281}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{EB3ADA65-7EF5-4856-B508-4BF86DB60281}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{4C8EA342-936B-447D-B5C0-ECF7E250C12F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{4C8EA342-936B-447D-B5C0-ECF7E250C12F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.MVC", "ProjetoModeloDDD.MVC\ProjetoModeloDDD.MVC.csproj", "{56DFC733-2544-40BE-85B5-D173B46A92FC}"
 EndProject
@@ -26,12 +26,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.Application", "ProjetoModeloDDD.Application\ProjetoModeloDDD.Application.csproj", "{D32A06BC-D451-4630-9677-EC40D3AE1793}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{762A3F2C-43A4-4D44-8792-CB96C7EFDC4A}"
+	ProjectSection(SolutionItems) = preProject
+		Cliente\Cliente.cs = Cliente\Cliente.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{2D68215B-B1B0-4711-A385-0BCD6C0D7603}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{38076A19-E159-483F-8F50-589F3B40EF6F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.csproj", "{E95AC44F-2A25-4378-9A82-8C465D7F05DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,10 +56,6 @@ Global
 		{D32A06BC-D451-4630-9677-EC40D3AE1793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32A06BC-D451-4630-9677-EC40D3AE1793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32A06BC-D451-4630-9677-EC40D3AE1793}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E95AC44F-2A25-4378-9A82-8C465D7F05DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E95AC44F-2A25-4378-9A82-8C465D7F05DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E95AC44F-2A25-4378-9A82-8C465D7F05DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E95AC44F-2A25-4378-9A82-8C465D7F05DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +70,5 @@ Global
 		{762A3F2C-43A4-4D44-8792-CB96C7EFDC4A} = {9C32C7E7-F985-4447-A6B8-B0335D2421DA}
 		{2D68215B-B1B0-4711-A385-0BCD6C0D7603} = {9C32C7E7-F985-4447-A6B8-B0335D2421DA}
 		{38076A19-E159-483F-8F50-589F3B40EF6F} = {9C32C7E7-F985-4447-A6B8-B0335D2421DA}
-		{E95AC44F-2A25-4378-9A82-8C465D7F05DB} = {762A3F2C-43A4-4D44-8792-CB96C7EFDC4A}
 	EndGlobalSection
 EndGlobal

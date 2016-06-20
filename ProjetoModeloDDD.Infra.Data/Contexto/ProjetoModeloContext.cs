@@ -1,9 +1,9 @@
 ﻿using System.Data.Entity;
-using Cliente;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System;
 using System.Linq;
 using ProjetoModeloDDD.Infra.Data.EntityConfig;
+using ProjetoModeloDDD.Domain.Entities;
 
 namespace ProjetoModeloDDD.Infra.Data.Contexto
 {
@@ -15,7 +15,7 @@ namespace ProjetoModeloDDD.Infra.Data.Contexto
 
         }
 
-        public DbSet<Cliente.Cliente> Clientes { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoModeloDDD.Infra.Data.EntityConfig
 {
-    public class ClienteConfiguration : EntityTypeConfiguration<Cliente.Cliente>
+    public class ClienteConfiguration : EntityTypeConfiguration<>
     {
         public ClienteConfiguration()
         {
